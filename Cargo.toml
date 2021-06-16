@@ -8,7 +8,8 @@ edition = "2018"
 slang = ["veridian_slang"]
 
 [dependencies]
-sv-parser = "0.8.2"
+tree-sitter = "0.17"
+tree-sitter-verilog = { git = "https://github.com/tree-sitter/tree-sitter-verilog" }
 log = "0.4.14"
 tower-lsp = "0.14.1"
 flexi_logger = "0.17.1"
